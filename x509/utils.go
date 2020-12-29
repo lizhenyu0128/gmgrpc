@@ -9,7 +9,7 @@ import (
 	"encoding/asn1"
 	"encoding/pem"
 	"errors"
-	"github.com/lizhenyu0128/tjfoc-gm/sm2"
+	"github.com/lizhenyu0128/gmgrpc/sm2"
 )
 
 func ReadPrivateKeyFromPem(privateKeyPem []byte, pwd []byte) (*sm2.PrivateKey, error) {

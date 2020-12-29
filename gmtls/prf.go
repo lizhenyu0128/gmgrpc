@@ -24,7 +24,7 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/tjfoc-gm/sm3"
+	"github.com/lizhenyu0128/gmgrpc/sm3"
 	"hash"
 )
 

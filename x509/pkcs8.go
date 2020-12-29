@@ -32,7 +32,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/lizhenyu0128/tjfoc-gm/sm2"
+	"github.com/lizhenyu0128/gmgrpc/sm2"
 )
 
 /*

@@ -27,7 +27,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/lizhenyu0128/tjfoc-gm/sm3"
+	"github.com/lizhenyu0128/gmgrpc/sm3"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/tjfoc-gm/x509"
+	"github.com/lizhenyu0128/gmgrpc/x509"
 	"io"
 	"math/big"
 	"net"

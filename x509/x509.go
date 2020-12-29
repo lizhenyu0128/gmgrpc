@@ -33,7 +33,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/tjfoc-gm/sm2"
+	"github.com/lizhenyu0128/gmgrpc/sm2"
 	"hash"
 	"io"
 	"math/big"
@@ -41,7 +41,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lizhenyu0128/tjfoc-gm/sm3"
+	"github.com/lizhenyu0128/gmgrpc/sm3"
 	"golang.org/x/crypto/ripemd160"
 	"golang.org/x/crypto/sha3"
 )

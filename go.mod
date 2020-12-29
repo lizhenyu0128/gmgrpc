@@ -1,4 +1,4 @@
-module github.com/lizhenyu0128/tjfoc-gm
+module github.com/lizhenyu0128/gmgrpc
 
 go 1.14
 

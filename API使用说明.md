@@ -3,12 +3,12 @@
 ## Go包安装
 
 ```bash
-go get -u github.com/lizhenyu0128/tjfoc-gm
+go get -u github.com/lizhenyu0128/gmgrpc
 ```
 
 ## SM3密码杂凑算法 - SM3 cryptographic hash algorithm
 - 遵循的SM3标准号为： GM/T 0004-2012
-- g package：`github.com/lizhenyu0128/tjfoc-gm/sm3`
+- g package：`github.com/lizhenyu0128/gmgrpc/sm3`
 - `type SM3 struct` 是原生接口hash.Hash的一个实现
 
 ### 代码示例
@@ -24,13 +24,13 @@ go get -u github.com/lizhenyu0128/tjfoc-gm
 ## SM4分组密码算法 - SM4 block cipher algorithm
 
 - 遵循的SM4标准号为:  GM/T 0002-2012
-- go package：`github.com/lizhenyu0128/tjfoc-gm/sm4`
+- go package：`github.com/lizhenyu0128/gmgrpc/sm4`
 
 ### 代码示例
 
 ```Go
     import  "crypto/cipher"
-    import  "github.com/lizhenyu0128/tjfoc-gm/sm4"
+    import  "github.com/lizhenyu0128/gmgrpc/sm4"
 
     func main(){
         // 128比特密钥
@@ -97,7 +97,7 @@ func NewCipher(key []byte) (cipher.Block, error)
 ## SM2椭圆曲线公钥密码算法 - Public key cryptographic algorithm SM2 based on elliptic curves
 
 - 遵循的SM2标准号为： GM/T 0003.1-2012、GM/T 0003.2-2012、GM/T 0003.3-2012、GM/T 0003.4-2012、GM/T 0003.5-2012、GM/T 0009-2012、GM/T 0010-2012
-- go package： `github.com/lizhenyu0128/tjfoc-gm/sm2`
+- go package： `github.com/lizhenyu0128/gmgrpc/sm2`
 
 ### 代码示例
 
