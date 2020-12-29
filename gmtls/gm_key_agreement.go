@@ -441,4 +441,5 @@ func (ka *eccKeyAgreementGM) generateClientKeyExchange(config *Config, clientHel
 	ckx.ciphertext[1] = byte(len(encrypted))
 	copy(ckx.ciphertext[2:], encrypted)
 	return preMasterSecret, ckx, nil
+
 }
