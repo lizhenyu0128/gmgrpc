@@ -428,8 +428,10 @@ func (ka *eccKeyAgreementGM) generateClientKeyExchange(config *Config, clientHel
 		return nil, nil, err
 	}
 	pubKey := ka.encipherCert.PublicKey.(*ecdsa.PublicKey)
+
 	sm2PubKey := &sm2.PublicKey{Curve: pubKey.Curve, X: pubKey.X, Y: pubKey.Y}
-	encrypted, err := sm2.Encrypt(sm2PubKey, preMasterSecret, config.rand())
+	encrypted, err := sm2.EncryptAsn1(sm2PubKey, preMasterSecret, config.rand())
+
 	if err != nil {
 		return nil, nil, err
 	}
